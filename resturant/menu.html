@@ -1,7 +1,139 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <title></title>
+    <head><h1>Our Menus</h1>
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        th, td {
+          padding: 8px;
+          text-align: left;
+          border-bottom: 1px solid #ddd;
+        }
+        
+        tr:hover {background-color: coral;}
+        div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+        </style>
+    </head>
+    <title>Resturent menu</title>
     <link rel="stylesheet" href="style.css">
-    <body></body>
+    <body>
+        <table>
+          <tr>
+            <th>Food</th>
+            <th>Item</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Drumstick</td>
+            <td>2</td>
+            <td>$10</td>
+          </tr>
+          <tr>
+            <td>Momo</td>
+            <td>1 </td>
+            <td>$15</td>
+          </tr>
+          <tr>
+            <td>can</td>
+            <td>1</td>
+            <td>$3</td>
+          </tr>
+          <tr>
+            <td>Juice</td>
+            <td>1</td>
+            <td>$13</td>
+          </tr>
+        </table>  
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="3.jpg">
+              <img src="3.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Soft drink</div>
+          </div>
+        </div>
+        
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="1.jpg">
+              <img src="1.jpg" alt="Forest" width="600" height="400">
+            </a>
+            <div class="desc">our desert</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="img 1.jpg">
+              <img src="img 1.jpg" alt="Northern Lights" width="600" height="400">
+            </a>
+            <div class="desc">Our Dining</div>
+          </div>
+        </div>
+        
+        <div class="responsive">
+          <div class="gallery">
+            <a target="_blank" href="2.jpg">
+              <img src="2.jpg" alt="Mountains" width="600" height="400">
+            </a>
+            <div class="desc">Our sea food</div>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+</div>
+<a href="restueant web.html" target="_blank">Back to home page</a>
+    </body>
 </html>
+
+
