@@ -1,0 +1,20 @@
+.leftdiv
+         {
+         float: left;
+         }
+         .middlediv
+         {
+         float: left;
+         background-color:gray
+         }
+         .rightdiv
+         {
+         float: left;
+         }
+         div1{
+         padding : 1%;
+         color: white;
+         background-color: 009900;
+         width: 30%;
+         border: solid black;
+         }
