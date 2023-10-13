@@ -29,12 +29,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
  import Home from './pages/Home/Home';
 import About from './pages/About/About';
-// import Menu from './pages/Menu/Menu';
-// import Contact from './pages/Contact/Contact';
-// import Footer from './pages/Footer/Footer';
 import{ BrowserRouter, Routes,Route} from 'react-router-dom';
-// import NotFound from './pages/NotFound/NotFound';
-// import Practice from './pages/Practice/Practice';
 function App() {
   return (
     <>
@@ -43,16 +38,9 @@ function App() {
       <Routes>
          <Route path="/" element={<Home />}/>  
         <Route path="/about" element={<About />} />
-        {/* <Route path="/menu" element={<Menu />} /> */}
-        {/* <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<NotFound />}/>
-        <Route path="/practice" element={<Practice/>} /> */}
       </Routes>
     </BrowserRouter>
-    {/* <div>
-    <Footer/>
-    </div> */}
-    </>
+</>
   );
 }
 
