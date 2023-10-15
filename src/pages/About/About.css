@@ -1,20 +1,24 @@
-.leftdiv
-         {
-         float: left;
-         }
+
          .middlediv
          {
          float: left;
          background-color:gray
          }
-         .rightdiv
-         {
-         float: left;
-         }
-         div1{
+        
+          div3{
          padding : 1%;
          color: white;
          background-color: 009900;
-         width: 30%;
+         width: 80%;
          border: solid black;
-         }
+         }  
+
+         .column1 {
+            float: left;
+            width: 27%;
+           height: 300px; 
+        }
+        p {
+            font-size:20px;
+            font-weight:bold;
+        }

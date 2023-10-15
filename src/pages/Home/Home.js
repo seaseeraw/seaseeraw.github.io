@@ -3,22 +3,42 @@ import './Home.css';
 const Home = () =>{
     return(
         <>
-        <div className="row">
+         {/* <div className="row">
   <div className="column">
-    <h2>Our value</h2>
-    <p>A most renown Neplease Resturant in  town</p>
+    <h2>My intro</h2>
+    <p>I am a Computer graduate with losts of skills in field of computer technology</p>
   </div>
   
   <div className="column">
-    <h2>Our vision</h2>
-    <p> We server our customer in the very friendly way and try to be part of them in their daily life.</p>
+    <h2>My vision</h2>
+    <p> I want to use all my skills I have in my future</p>
   </div>
   
   <div className="column">
-    <h2>Our history</h2>
-    <p>We started our small bussiness in 1990 in small toen of nepal and with the advancement in the field of technology we are now in our 30 years of experience in serving our customer</p>
-  </div>
-          </div>
+    <h2>My education background</h2>
+    <p>I have done my high school from my home country Nepal.I have done my diploma on Australian certified institute and Bacholers Degree in Computer science from CIHE</p>
+  </div> 
+          </div> */}
+          <h1 style={{color: "white",
+    backgroundColor: "DodgerBlue",
+    padding: "10px",
+    fontFamily: "Sans-Serif",textAlign:"center"}}>"Hello I Am A Computer Graduate With Good Skills On Computer Tools"</h1>
+
+          <div1 className="leftdiv">
+         <h1>My education</h1>
+         <p>I have done my high school from my home country Nepal.I have done my diploma on Australian certified institute and Bacholers Degree in Computer science from CIHE
+      </p>
+      </div1>
+      <div2 className="middle1div">
+         <h2>My intro</h2>
+         <p2>I am a Computer graduate with losts of skills in field of computer technology
+         </p2>
+      </div2>
+      <div1 className="rightdiv">
+         <h3>My Vision</h3>
+         <p>I want to use all my skills I have in my future
+         </p>
+      </div1>
        </>
     )
 }

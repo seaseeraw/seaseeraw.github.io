@@ -29,6 +29,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
  import Home from './pages/Home/Home';
 import About from './pages/About/About';
+//  s
 import{ BrowserRouter, Routes,Route} from 'react-router-dom';
 function App() {
   return (

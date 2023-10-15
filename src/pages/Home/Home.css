@@ -1,15 +1,33 @@
-body {
-    margin: 0;
-  }
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
 
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+.leftdiv
+{
+float: left;
+background-color:palevioletred
 }
+.middle1div
+{
+float: left;
+background-color:burlywood
+}
+.rightdiv
+{
+float: left;
+background-color:green
+}
+div1{
+padding : 1%;
+color: white;
+background-color: 009900;
+font-size: 70;
+width: 80%;
+border: solid black;
+}
+
+div2{
+  padding : 1%;
+  color: white;
+  background-color: 009900;
+  width: 80%;
+  border: solid black;
+  } 

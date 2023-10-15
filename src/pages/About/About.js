@@ -4,38 +4,95 @@ const About = () =>{
     return(
         <>       
       
-         {/* <div className="sticky" >
-        
-          <p>We serve the best quality of food</p>
-          <p>We do catering ordeers on big occasion</p>
-          <p> We do delivery of food as well</p>
-          <p>We are with customer on every time</p>
-      </div> */}
+      <div3 className="middlediv">
+         <h2>Tools</h2>
+            <table border="5" cellSpacing="1">
+                <thead>
+                    <tr>
+                        <th>Tool name</th>
+                        <th>Introduced when</th>
+                        <th>Advantage</th>
+                     
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Git</td>
+                        <td>1 August 2023</td>
+                        <td>
+                            <ol>
+                                <li>Good Platform to pracrice coding and pushing</li>
+                                <li>Branching capabilities and merging are easy (as they are cheap), and they have good data integrity.</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>15 September 2023</td>
+                        <td>
+                            <ol>
+                                <li>Easy platform to learn builting application and user friendly</li>
+                                
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Css</td>
+                        <td>2020</td>
+                        <td>
+                            <ol>
+                                <li>Good platform to make website look attractive</li>
+                            </ol>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>  
+      </div3>
 
-<div className="leftdiv">
-         <h1>Lorem Ipsum</h1>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-      </p>
-         <h2>Lorem Ipsum</h2>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-      </p>
-      </div>
-      <div className="middlediv">
-         <h1>Lorem Ipsum</h1>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-         </p>
-         <h2>Lorem Ipsum</h2>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-         </p>
-      </div>
-      <div className="rightdiv">
-         <h1>Lorem Ipsum</h1>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-         </p>
-         <h2>Lorem Ipsum</h2>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum    
-         </p>
-      </div>
+      <footer>
+            <div4 className="column1">
+                 
+ 
+<p>Experience</p>
+ 
+ <ul>
+                {/* <ul style={"list-style-type:disc"}> */}
+                    <li>Working on React</li>
+                    <li>On CSS</li>
+                    <li>On Github</li>
+                    <li>Teaching</li>
+                </ul>
+            </div4>
+               
+            <div4 className="column1">
+                 
+ 
+<p>Skills</p>
+ 
+ 
+                <ul>
+                    <li>Algorithms</li>
+                    <li>Data Structures</li>
+                    <li>Github</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                </ul>
+            </div4>
+                
+            <div4 className="column1">
+                 
+ 
+<p>My knoeledge on</p>
+ 
+ 
+                <ul>
+                    <li>Company-wise</li>
+                    <li>Topic-wise</li>
+                    <li>Contests</li>
+                    <li>Subjective Questions</li>
+                </ul>
+            </div4>
+        </footer>
 
         </>
        
