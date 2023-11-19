@@ -24,22 +24,28 @@
 //  }
 
 // export default App;
-
+import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
  import Home from './pages/Home/Home';
 import About from './pages/About/About';
-//  s
+import  Skill from './pages/Skill/Skill';
+import  Contact from './pages/Contact/Contact';
+import Footer from "./components/Footer/Footer";
 import{ BrowserRouter, Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <>
+     {/* <img src={logo} className="App-logo" alt="logo" /> */}
     <BrowserRouter>
     <div><Navbar/></div>
       <Routes>
-         <Route path="/" element={<Home />}/>  
+         <Route path="/home" element={<Home />}/>  
         <Route path="/about" element={<About />} />
+        <Route path="/skill" element={<Skill />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
 </>
   );

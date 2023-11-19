@@ -1,0 +1,12 @@
+
+
+        .one{
+            display: grid;
+            
+            padding: 30px 100px;
+            
+            margin: 90px 0;
+            width: 90%;
+            font-size:20px;
+            font-weight:normal;
+          }

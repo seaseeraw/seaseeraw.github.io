@@ -1,24 +1,86 @@
 
-         .middlediv
-         {
-         float: left;
-         background-color:gray
-         }
-        
-          div3{
-         padding : 1%;
-         color: white;
-         background-color: 009900;
-         width: 80%;
-         border: solid black;
-         }  
+.about {
+  margin-top: 100px;
+}
 
-         .column1 {
-            float: left;
-            width: 27%;
-           height: 300px; 
-        }
-        p {
-            font-size:20px;
-            font-weight:bold;
-        }
+.top-banner {
+  width: 100%;
+  height: 20vh;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 0 80px;
+}
+
+
+.top-banner p {
+  background-color: rgb(9, 9, 9);
+  color: #c46909;
+  padding: 0 10px;
+}
+
+.is {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+ .img {
+  text-align: center;
+} 
+
+.image1 {
+  width: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.sp h1 {
+  font-size: 28px;
+  line-height: 1.2em;
+  color: #262626;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.sp p {
+  font-size: 17px;
+  line-height: 28px;
+  color: #808080;
+  font-weight: 200;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 20px;
+}
+.ex {
+  display: inline-block;
+  width: 350px;
+  height: 50px;
+  background-color: #8b2b11;
+  color: white;
+  font-size: 25px;
+  border: none;
+  transition: all 0.42s ease;
+}
+
+.ex:hover {
+  transform: scale(1.04);
+  background-color: #1b6b03;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .is {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
