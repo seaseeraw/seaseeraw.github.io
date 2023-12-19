@@ -1,5 +1,6 @@
 import React from "react";
 import './Home.css';
+import About from "../About/About";
 const Home = () =>{
     return(
         <>
@@ -12,7 +13,10 @@ const Home = () =>{
             </h1>
             <p>I am a graduate in computer science 
               with good Qualification</p>
-            <button className="explore-button">More about me</button>
+              <a href="About">
+            <button className="explore-button" >More about me
+            </button>
+            </a>
           </div>
         
         </section>

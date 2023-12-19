@@ -1,12 +1,48 @@
 
 
-        .one{
+        .o{
             display: grid;
-            
             padding: 30px 100px;
-            
             margin: 90px 0;
-            width: 90%;
-            font-size:20px;
+            width: auto;
+            font: size 15px;
             font-weight:normal;
           }
+
+          h2:hover{
+            pointer-events: visible;
+            color:crimson;
+            background-color:aqua;
+            
+          }
+
+          div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+            align-self: center;
+          }
+          
+          div.gallery:hover {
+            border: 1px solid #777;
+          }
+          
+          div.gallery img {
+           
+            width: 100%;
+            height: auto;
+          }
+          
+          div.desc {
+            padding: 15px;
+            text-align: center;
+          }
+
+        .o {
+text-align-last: center;
+        }
+        h1{
+          text-align: center;
+
+        }

@@ -31,7 +31,7 @@ import Navbar from './components/navbar/Navbar';
 import About from './pages/About/About';
 import  Skill from './pages/Skill/Skill';
 import  Contact from './pages/Contact/Contact';
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import{ BrowserRouter, Routes,Route} from 'react-router-dom';
 function App() {
   return (
@@ -45,7 +45,7 @@ function App() {
         <Route path="/skill" element={<Skill />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </BrowserRouter>
 </>
   );
